@@ -31,7 +31,7 @@ public class Buffalo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int iterations = args.length > 0 ? Integer.parseInt(args[0]) : 23;
+        int iterations = args.length > 0 ? Integer.parseInt(args[0]) : 15;
         try {
             FileOutputStream file = new FileOutputStream("buffalo.txt");
             file.write(getBuffaloString(iterations).getBytes());
